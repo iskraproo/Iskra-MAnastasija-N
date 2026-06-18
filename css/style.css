@@ -1,0 +1,135 @@
+@keyframes pojava {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #ffb4a2,
+        #ffcdb2,
+        #e5989b,
+        #6d6875
+    );
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 30px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    animation: pojava 1s ease;
+}
+
+#slika1,
+#slika2,
+#slika3 {
+    text-align: center;
+    margin: 80px auto;
+    animation: pojava 1s ease;
+}
+
+
+#slika1 p,
+#slika2 p,
+#slika3 p {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#slika1 img,
+#slika2 img,
+#slika3 img {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    transition: transform 0.4s ease;
+}
+
+
+#slika1 img:hover,
+#slika2 img:hover,
+#slika3 img:hover {
+    transform: scale(1.03);
+}@keyframes pojava {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #ffb4a2,
+        #ffcdb2,
+        #e5989b,
+        #6d6875
+    );
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 30px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    animation: pojava 1s ease;
+}
+
+
+#slika1,
+#slika2,
+#slika3 {
+    text-align: center;
+    margin: 80px auto;
+    animation: pojava 1s ease;
+}
+
+#slika1 p,
+#slika2 p,
+#slika3 p {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#slika1 img,
+#slika2 img,
+#slika3 img {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    transition: transform 0.4s ease;
+}
+
+#slika1 img:hover,
+#slika2 img:hover,
+#slika3 img:hover {
+    transform: scale(1.03);
+}
